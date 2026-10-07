@@ -3,6 +3,9 @@
  */
 
 package com.mycompany.envios;
+import com.mycompany.envios.modelo.Envio;
+import com.mycompany.envios.modelo.EnvioInternacional;
+import com.mycompany.envios.modelo.EnvioNacional;
 
 /**
  *
