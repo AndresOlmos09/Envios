@@ -21,7 +21,12 @@ public class EnvioNacional extends Envio{
         return departamento;
     }
     
-
+    
+    public EnvioNacional(){
+        super("ASAS",20);
+        this.departamento = "Bolivar";
+    }
+    
     @Override
     public void calcularCosto() {
         double costo = getPeso() * 5000.0;

@@ -17,7 +17,11 @@ public class EnvioInternacional extends Envio {
         this.impuestoAduana = impuestoAduana;
     }
     
-
+    public EnvioInternacional(){
+        super("ASAS",20);
+        this.impuestoAduana = 2000;
+    }
+    
     @Override
     public void calcularCosto() {
         double costo = (getPeso() * 15000.0) + impuestoAduana;
